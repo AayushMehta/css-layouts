@@ -1,0 +1,138 @@
+* {
+    /* border-top: 10px solid #1098ad; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  .headers
+  {
+    /* display:inline; */
+    /* border:1px solid brown; */
+    height:60px;
+
+    margin-left:40px;
+    margin-top:10px;
+    margin-bottom:47px;
+    /* padding-bottom:10px; */
+    font-size: 25px;
+    /* border-bottom: 1px solid black; */
+  }
+  .asli-header{
+    display:inline-block;
+    /* border:1px solid blue; */
+    width:30%;
+    /* padding-left:20px; */
+    padding-top:10px;
+    height:100%;
+  }
+  .in-header{
+    width:30%;
+    height:100%;
+    /* text-align:right; */
+    margin-left:560px;
+    /* border:1px solid red; */
+    display:inline-block;
+    padding-top:10px;
+
+  }
+
+  .date 
+  {
+    font-weight:200;
+    /* border:1px solid silver; */
+    width:20%;
+    margin-left:40px;
+    font-family:sans-serif;
+    margin-bottom : 30px;
+  }
+  .black-border
+  {
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid black;
+    font-family: 'Editorial New';
+    /* margin-bottom: 60px; */
+    /* margin-left:40px; */
+    /* width:50% */
+
+  }
+.six{
+    font-size:5em;
+    width:60%;
+    font-weight:400;
+    font-family: 'Editorial New', sans-serif;
+    letter-spacing: -1px;
+    line-height: 120%;
+
+    display:inline-block;
+    /* border:1px solid red; */
+    margin-left:40px;
+    margin-bottom:60px;
+    /* margin-right: 0px; */
+    margin-top: 0px;
+}
+.sabkuch{
+    /* border:1px solid grey; */
+    display: flex;
+    gap: 5rem;
+
+    /* margin:0; */
+
+    /* width:60% */
+}
+.left
+  {
+    /* border: 1px solid green; */
+    margin:0;
+    block:inline-block;
+    /* width:50%; */
+    /* margin-left:40px; */
+    /* margin-bottom:5px; */
+    /* letter-pacing: -1px; */
+    font-weight:200;
+    margin-right:0px;
+
+    width: 37%;
+    margin-left: 40px;
+    /* font-size: ; */
+    font-size: 2.7em;
+
+
+
+
+  }
+.right
+{
+    /* border: 1px solid purple; */
+    /* margin-left:500px; */
+    display: inline-block;
+    /* margin-left: 568px; */
+    /* margin-left:568px; */
+    /* margin-bottom: 40px; */
+    font-weight:200;
+    margin-right:0px;
+    width: 43%;
+    font-size: 2em;
+    /* margin-left:600px; */
+
+
+}
+.right-up
+{
+    /* border:1px solid blue; */
+    /* display: inline-block; */
+    width:100%;
+    /* margin-left: 568px; */
+    /* font-weight:200; */
+    /* margin-bottom:60px; */
+    margin-bottom: 40px;
+
+    
+
+}
+.right-down
+{
+    width:100%;
+}
