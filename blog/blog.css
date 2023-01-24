@@ -10,6 +10,7 @@
   /* border-radius: 10px; */
   outline: 1px solid red;
   border-radius: inherit;
+  width: 100%;
 }
 .simg img {
   object-fit: cover;
@@ -22,6 +23,14 @@
   width: 366px;
   border-radius: inherit;
   /* border-radius: 10px; */
+}
+
+.fimg {
+      margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+    width: 100%;
 }
 
 .three {
@@ -52,12 +61,15 @@
   margin-top: 100px;
 }
 .first {
-  outline: 1px solid green;
-  column-count: 3;
-  grid-row: 1/3;
-  /* width: 100%; */
-  /* height: 100%; */
-  border-radius: 10px;
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid green;
+    column-count: 3;
+    grid-row: 1/3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .second {
