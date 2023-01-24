@@ -49,10 +49,12 @@
 }
 
 .second {
-  outline: 1px solid purple;
   grid-column: 2 / span 2;
   grid-row: 1;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .simg img {
@@ -68,6 +70,9 @@
   grid-row: 2;
   height: 100%;
   border-radius: 10px;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
 }
 
 .timg img {
