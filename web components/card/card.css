@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap");
+/* CSS RESET STARTS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --gray: rgb(115, 114, 114);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+li {
+  list-style: url("./check-box.svg");
+  margin-left: 20px;
+}
+/* CSS RESET ENDS */
+
+.container {
+  /* outline: 1px solid var(--red); */
+  display: flex;
+  padding: 30px;
+  margin-top: 50px;
+  /* height: 100vh; */
+}
+
+.card {
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  width: 20%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+  padding: 25px;
+}
+
+.card-heading,
+.card-description,
+.card-pricing {
+  text-align: center;
+}
+
+.card-description {
+  font-size: 0.875rem;
+  margin-top: 5px;
+  line-height: 1.3;
+  color: var(--gray);
+  font-weight: bolder;
+}
+
+.card-pricing {
+  /* margin-top: 30px; */
+  text-align: center;
+  height: 75px;
+  margin: 20px 0;
+}
+
+.separator > * {
+  text-align: center;
+}
+
+.separator {
+  height: 23px;
+  display: block;
+}
+
+.card-features {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.card-listitem {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.card-button {
+  border: none;
+  padding: 15px 20px;
+  background: none;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  width: 60%;
+  margin: 0 auto;
+}
