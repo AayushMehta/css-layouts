@@ -12,8 +12,8 @@
   box-sizing: border-box;
   outline: 1px solid red;
   margin: 0 auto;
-  width: 70%;
-  margin-top: 20rem;
+  width: 80%;
+  margin-top: 5rem;
 }
 .cards {
   margin: 0;
@@ -38,6 +38,8 @@
   flex-direction: column;
   gap: 2rem;
   padding-top: 3rem;
+  width: 400px;
+  border-radius: 5px;
 }
 .card2 {
   font-size: 2rem;
@@ -49,6 +51,8 @@
   flex-direction: column;
   gap: 2rem;
   padding-top: 3rem;
+  width: 400px;
+  border-radius: 5px;
 }
 .card3 {
   font-size: 2rem;
@@ -60,6 +64,8 @@
   flex-direction: column;
   gap: 2rem;
   padding-top: 3rem;
+  width: 400px;
+  border-radius: 5px;
 }
 
 .getstartedbtn {
@@ -85,10 +91,16 @@
   line-height: 2.5rem;
   font-weight: 10;
   padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 .choose {
   text-align: center;
   display: block;
   width: 50%;
   outline: 1px solid purple;
+}
+li {
+  list-style: \F633;
+  margin-left: 20px;
+  font-size: 1.5rem;
 }
