@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.header {
+  /* text-align: center; */
+  font-size: 1.5rem;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px solid red;
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 20rem;
+}
+.cards {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  gap: 5rem;
+  font-size: 2rem;
+  outline: 1px solid green;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 3rem;
+}
+.card2 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 3rem;
+}
+.card3 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 3rem;
+}
+
+.getstartedbtn {
+  font-size: 2rem;
+  border: none;
+  background: #10182f;
+  color: white;
+  border-radius: 5px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.team,
+.agency,
+.enterprice {
+  text-align: center;
+  font-size: 2rem;
+}
+.price {
+  text-align: center;
+}
+.list {
+  line-height: 2.5rem;
+  font-weight: 10;
+  padding-bottom: 4rem;
+}
+.choose {
+  text-align: center;
+  display: block;
+  width: 50%;
+  outline: 1px solid purple;
+}
