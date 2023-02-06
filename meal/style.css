@@ -1,0 +1,51 @@
+/* CSS RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* CSS RESETS */
+
+/* UTILITY CLASSES */
+
+.spacing :not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.fa-solid.fa-utensils,
+.fa-solid.fa-heart-pulse,
+.fa-solid.fa-cookie-bite,
+.fa-solid.fa-bowl-food {
+  border-radius: 15px;
+  border: 3px solid #c695ff;
+  padding: 8px;
+}
+/* UTILITY CLASSES */
+
+section {
+  display: flex;
+  width: 70%;
+  gap: 2.5rem;
+  padding: 30px 50px;
+  background-color: #9255f0;
+  border-radius: 34px;
+  color: white;
+}
+
+.recipe {
+  cursor: pointer;
+  outline: 1px solid yellowgreen;
+}
+
+.icon {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffe293;
+}
