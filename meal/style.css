@@ -36,8 +36,8 @@ body {
 section {
   display: flex;
   width: 70%;
-  gap: 2.5rem;
-  padding: 20px 20px;
+  gap: 1.5rem;
+  padding: 20px 50px;
   background-color: #9255f0;
   border-radius: 34px;
   color: white;
@@ -63,7 +63,6 @@ section {
   border-top-right-radius: 10px;
   color: black;
   height: 136%;
-  padding: 10px;
 }
 
 .info {
