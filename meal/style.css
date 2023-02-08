@@ -37,24 +37,24 @@ section {
   display: flex;
   width: 70%;
   gap: 2.5rem;
-  padding: 20px 50px;
+  padding: 20px 20px;
   background-color: #9255f0;
   border-radius: 34px;
   color: white;
-  /* height: 238px; */
+  height: 238px;
 }
 
 .recipe {
   cursor: pointer;
   text-align: center;
-  transition: all ease-in 0.5s;
+  transition: all ease-in 0.2s;
 }
 
 .icon {
   text-align: center;
   font-size: 2rem;
   color: #ffe293;
-  transition: all ease-in 0.5s;
+  transition: all ease-in 0.2s;
 }
 
 .recipe:hover {
@@ -62,23 +62,25 @@ section {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   color: black;
-  /* padding: 10px; */
+  height: 136%;
+  padding: 10px;
 }
 
 .info {
   display: none;
-  transition: all ease-in 0.5s;
+  transition: all ease-in 0.2s;
 }
 
 .recipe:hover {
-  /* transform: translateY(-50px); */
+  transform: translateY(-50px);
 }
 
 .recipe:hover .info {
   display: block;
   margin-top: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   background-color: #ffe293;
+  padding-bottom: 20px;
 }
 
 /* .recipe:hover .icon {
