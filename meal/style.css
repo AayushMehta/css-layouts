@@ -62,36 +62,32 @@ section {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   color: black;
-  height: 136%;
+  height: 146%;
 }
 
 .info {
   display: none;
   transition: all ease-in 0.2s;
+  color: black;
 }
 
 .recipe:hover {
-  transform: translateY(-50px);
+  transform: translateY(-70px);
 }
 
 .recipe:hover .info {
   display: block;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   /* margin-bottom: 20px; */
   background-color: #ffe293;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
-
-/* .recipe:hover .icon {
-  color: #f3b231;
-} */
 
 .recipe:hover .fa-solid.fa-utensils,
 .recipe:hover .fa-solid.fa-heart-pulse,
 .recipe:hover .fa-solid.fa-cookie-bite,
 .recipe:hover .fa-solid.fa-bowl-food {
   border-color: #fede88;
-  margin-top: 20px;
+  margin-top: 30px;
   background-color: #f3b231;
-  /* color: black; */
 }
