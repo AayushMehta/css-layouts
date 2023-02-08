@@ -35,19 +35,22 @@ body {
 
 section {
   display: flex;
-  width: 70%;
-  gap: 1.5rem;
+  width: 60%; /* gap not needed*/
   padding: 20px 50px;
   background-color: #9255f0;
   border-radius: 34px;
   color: white;
   height: 238px;
+  padding: 20px;
+  justify-content: space-around;
 }
 
 .recipe {
   cursor: pointer;
   text-align: center;
-  transition: all ease-in 0.2s;
+  transition: all ease-out 0.2s;
+  width: 20%;
+  padding: 20px;
 }
 
 .icon {
@@ -58,29 +61,28 @@ section {
 }
 
 .recipe:hover {
-  background: #ffe293;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  color: black;
+  background: linear-gradient(133deg, #f2ece0, #f2c23b, #e9ac18);
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+  color: #765a09;
   height: 146%;
+  padding: 20px;
 }
 
 .info {
   display: none;
   transition: all ease-in 0.2s;
-  color: black;
+  color: #765a09;
+  /* padding-top: 5px; */
 }
 
 .recipe:hover {
-  transform: translateY(-70px);
+  transform: translateY(-71px);
 }
 
 .recipe:hover .info {
   display: block;
-  /* margin-top: 20px; */
-  /* margin-bottom: 20px; */
-  background-color: #ffe293;
-  /* padding-bottom: 20px; */
+  background-color: none;
 }
 
 .recipe:hover .fa-solid.fa-utensils,
@@ -88,6 +90,6 @@ section {
 .recipe:hover .fa-solid.fa-cookie-bite,
 .recipe:hover .fa-solid.fa-bowl-food {
   border-color: #fede88;
-  margin-top: 30px;
+  margin-top: 25px;
   background-color: #f3b231;
 }
