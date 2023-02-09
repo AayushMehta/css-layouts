@@ -39,7 +39,7 @@ section {
   width: 70%; /* gap not needed*/
   padding: 20px 50px;
   background-color: #9255f0;
-  border-radius: 34px;
+  border-radius: 30px;
   color: white;
   height: 238px;
   justify-content: space-around;
@@ -63,8 +63,8 @@ section {
 
 .recipe:hover {
   background: linear-gradient(133deg, #f2ece0, #f2c23b, #e9ac18);
-  border-top-left-radius: 34px;
-  border-top-right-radius: 34px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   color: #765a09;
   height: 146%;
   padding: 20px;
