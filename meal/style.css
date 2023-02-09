@@ -10,6 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 /* CSS RESETS */
 
@@ -45,6 +46,7 @@ section {
 }
 
 .recipe {
+  font-size: 0.9rem;
   cursor: pointer;
   text-align: center;
   transition: all ease-out 0.2s;
