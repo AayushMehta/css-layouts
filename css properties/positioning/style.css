@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 400px;
+  height: 200px;
+  outline: 1px solid red;
+  background-color: lightcoral;
+  /* margin-left: 50px;
+  margin-top: 10px; */
+}
+
+.child {
+  width: 300px;
+  height: 300px;
+  outline: 1px solid red;
+  background-color: lightgreen;
+}
+
+.asshole {
+  position: relative;
+  outline: 1px solid cyan;
+  width: 95vw;
+  height: 200px;
+}
+
+.grandchild {
+  width: 800px;
+  height: 200px;
+  outline: 1px solid red;
+  background-color: lightgoldenrodyellow;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+
+.paragraph {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
