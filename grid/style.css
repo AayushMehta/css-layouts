@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* text-align: center; */
+}
+
+html {
+  text-transform: capitalize;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  justify-content: center;
+  flex-basis: 15%;
+  background: lightgray;
+}
+
+.navbar {
+  justify-content: center;
+  flex-basis: 10%;
+  background: lightgray;
+}
+
+.content {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  flex-basis: 60%;
+}
+
+.aside {
+  justify-content: center;
+  flex-basis: 20%;
+  background: lightgray;
+}
+
+.main-content {
+  justify-content: center;
+  flex-basis: 60%;
+  background: lightgray;
+}
+
+.footer {
+  justify-content: center;
+  flex-basis: 15%;
+  background: lightgray;
+}
