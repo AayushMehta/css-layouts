@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* text-align: center; */
+  text-align: center;
 }
 
 html {
   text-transform: capitalize;
 }
+
+/* using flex 
+
 
 .container {
   padding: 20px;
@@ -53,4 +56,38 @@ html {
   justify-content: center;
   flex-basis: 15%;
   background: lightgray;
+}
+
+
+using flex ends*/
+
+/* using grid  */
+
+.container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header,
+.navbar,
+.footer {
+  grid-column: 1 / span 3;
+  background-color: lightgray;
+  align-items: center;
+}
+
+.main-content,
+.aside {
+  background-color: lightgray;
 }
