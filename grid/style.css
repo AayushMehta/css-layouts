@@ -71,6 +71,11 @@ using flex ends*/
   width: 100vw;
   height: 100vh;
   padding: 20px;
+  /* grid-template-areas:
+    'header header header'
+    'navbar navbar navbar'
+    'asideleft main-content asideright '
+    'footer footer footer'; */
 }
 
 .flex {
@@ -86,6 +91,32 @@ using flex ends*/
   background-color: lightgray;
   align-items: center;
 }
+
+/* .header {
+  grid-area: header;
+}
+
+.navbar {
+  grid-area: navbar;
+}
+
+.asideleft {
+  grid-area: asideleft;
+}
+
+.main-content {
+  grid-area: main-content;
+}
+
+.asideright {
+  grid-area: asideright;
+}
+
+.footer {
+  grid-area: footer; */
+/* grid-column: 1 / -1; */
+/* grid-row: 4 / 5; */
+/* } */
 
 .main-content,
 .aside {
