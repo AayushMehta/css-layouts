@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 400px;
+  height: 80px;
+  background: #ecd5d0;
+  border-radius: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.artist {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.artist img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.artist-description {
+  margin-top: 5px;
+  line-height: 1.3;
+}
+
+.artist-description p {
+  color: gray;
+}
+
+.fa-solid {
+  padding: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.line {
+  border: 1px solid #dbc7c6;
+  /* margin-top: 0.5rem; */
+  background-color: #dbc7c6;
+  border-radius: 20px;
+  position: relative;
+}
+
+.line::before {
+  content: "";
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+}
