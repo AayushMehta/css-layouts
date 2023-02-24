@@ -37,6 +37,7 @@ window.addEventListener('click', (e) => {
   // e.target.style.background = 'red'
   // e.target.style.transform = 'translateX(100px)'
   e.target.classList.toggle('animate')
+  // e.preventDefault()
   console.log(e.target.style)
   console.log(e.target.classList)
 })
