@@ -16,11 +16,12 @@
 } */
 
 .active {
-  display: none;
+  /* display: none; */
+  outline: 2px solid red;
 }
 
-.refrences-list:hover,
+/* .refrences-list:hover,
 .guides-list:hover,
 .mdn-list:hover {
   display: none;
-}
+} */
