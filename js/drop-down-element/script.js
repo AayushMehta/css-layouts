@@ -1,4 +1,4 @@
-const button = document.getElementById("button");
+const button = document.getElementById('button')
 
 // function eventManager(elem) {
 //   elem.addEventListener("click", function (e) {
@@ -6,12 +6,17 @@ const button = document.getElementById("button");
 //   });
 // }
 
-button.addEventListener("click", (e) => {
-  e.target.classList.toggle("active");
-  // console.log(e.target.style);
-  console.log("Button clicked");
-  // console.log(e.target.classList);
-});
+// for (let i = 0; i < 3; i++) button[i].addEventListener('click')
+
+button.addEventListener('mouseover', (e) => {
+  e.target.classList.add('active')
+  console.log('Button clicked')
+})
+
+button.addEventListener('mouseover', (e) => {
+  e.target.classList.add('active')
+  console.log('But=ton clicked')
+})
 
 // buttons.forEach(function (button) {
 //   button.addEventListener("click", function () {
