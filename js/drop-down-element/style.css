@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar-list {
+  display: flex;
+  gap: 2rem;
+  margin-left: 20rem;
+}
+
+/* li {
+  width: 70px;
+  height: 30px;
+} */
+
+.active {
+  display: none;
+}
+
+.refrences-list:hover,
+.guides-list:hover,
+.mdn-list:hover {
+  display: none;
+}
