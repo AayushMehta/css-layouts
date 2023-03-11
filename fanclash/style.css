@@ -1,0 +1,86 @@
+/* CSS RESETS STARTS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* CSS RESETS ENDS */
+
+/* NVABAR CSS */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  padding: 4px 28px 4px 28px;
+  background-color: rgba(23, 23, 23, 0.6);
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: fixed;
+  top: 10%;
+  right: 5%;
+  transition: all 0.5s ease-in-out;
+
+  /* border-radius: 20px; */
+}
+
+.dark-mode {
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 2rem;
+  align-self: center;
+}
+
+.testing {
+  height: 150vh;
+}
+
+/* .download-now-button {
+  background-color: linear-gradient(153.13deg, #cfef2e 36.15%, #009919 221.47%);
+  background: #009919;
+  height: 48px;
+  width: 188px;
+  border-radius: 12px;
+} */
+.list-flex {
+  display: flex;
+  align-self: center;
+}
+
+.list-flex a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-flex a:active {
+  color: #d0f02d;
+}
+
+.list-flex a:hover {
+  color: #d0f02d;
+}
+
+button {
+  height: 48px;
+  width: 188px;
+  border-radius: 12px;
+  background: #009919;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+}
