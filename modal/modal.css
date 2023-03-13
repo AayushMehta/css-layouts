@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  /* left: 50; */
+  top: 50;
+  width: 100%;
+}
+.modal-content {
+  background-color: teal;
+  color: white;
+  border: 1px solid #888;
+  width: 30%;
+  height: 30vh;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
