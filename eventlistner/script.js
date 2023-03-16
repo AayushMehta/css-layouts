@@ -8,16 +8,25 @@ const btn = document.getElementsByClassName("btn");
 // console.log(btn.length);
 
 for (let i = 0; i < btn.length; i++) {
+  console.log((i + 1) % 2);
+  console.log((i + 1) % 2 == 0);
+
   loop[i].addEventListener("click", function () {
-    if ((i + 1) % 2 == 0) {
-      // console.log(`odd button clicked`);
-      btn[i].textContent = `even button `;
-    } else {
-      btn[i].textContent = `odd button `;
+    //     btn[i].textContent = `even button `;
+    //   if ((i + 1) % 2 == 0) {
+    //   } else {
+    //     btn[i].textContent = `odd button `;
 
-      // console.log(`even button clicked`);
+    //   }
+
+    // });
+    switch ((i + 1) % 2) {
+      case 1:
+        btn[i].textContent = `odd button `;
+        break;
+      case 0:
+        btn[i].textContent = `even button `;
+        break;
     }
-
-    // console.log(`clicked button ${i + 1}`);
   });
 }
