@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 2rem;
+      }
+      .title {
+        /* display: none; */
+        outline: 1px solid red;
+        cursor: pointer;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      * {
+        list-style: none;
+      }
+
+      li {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="title">Getting Started</div>
+        <ul class="getting-started">
+          <li class="introduction list">introduction</li>
+          <li class="quick-start list">Quick start-content</li>
+        </ul>
+        <div class="title">Tutorial</div>
+        <ul class="tutorial">
+          <li class="building list">buliding</li>
+          <li class="using list">using</li>
+        </ul>
+      </div>
+      <div class="right">
+        <div class="intro-content hidden">
+          <div class="content-container">
+            <h1>INTRO</h1>
+            <p>this is intro</p>
+          </div>
+        </div>
+        <div class="quick-start-content hidden">
+          <div class="content-container">
+            <h1>Quick Services</h1>
+            <p>this is quick start</p>
+          </div>
+        </div>
+        <div class="building-content hidden">
+          <div class="content-container">
+            <h1>Building</h1>
+            <p>this is building</p>
+          </div>
+        </div>
+        <div class="using-content hidden">
+          <div class="content-container">
+            <h1>USING</h1>
+            <p>this is using</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
