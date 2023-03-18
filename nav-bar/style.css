@@ -15,7 +15,7 @@ body {
   align-items: center;
   height: 100vh;
   background: #1d1d20;
-  color: #d1d1d1;
+  color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -28,7 +28,7 @@ body {
   border-radius: 5px;
   width: 70%;
   padding: 20px;
-  background-color: cornsilk;
+  background-color: darkcyan;
   /* max-height: 791px; */
   /* height: 100vh; */
   /* justify-content: center; */
@@ -50,7 +50,7 @@ body {
 .fa-linkedin,
 .fa-github,
 .fa-envelope {
-  color: #777;
+  color: white;
   font-size: 1.5rem;
   transition: all 0.2s linear;
 }
