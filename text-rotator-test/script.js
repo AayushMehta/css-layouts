@@ -15,54 +15,15 @@ function rotateText() {
 }
 
 const intervalId = setInterval(rotateText, 300);
-// wordArr.splice(-1, 1);
 console.log(spanEl.textContent);
 
 function deletee() {
-  // spanEl.textContent = wordArr.splice(-1, 1);
-  wordArr.splice(-1, 1);
-  console.log(wordArr);
+  for (let i = word.length - 1; i >= 0; i--) {
+    let newString = word.substring(0, i);
+    console.log(newString);
+    spanEl.innerHTML -= newString[i];
+    // spanEl.textContent += word.substring(0, i);
+  }
 }
 
-// for (let i = word.length - 1; i > 0; i--) {
-//   if (wordArr.length > 0) {
-//     wordArr.splice(-1, 1);
-//     console.log(wordArr.join(""));
-//     // spanEl.textContent -= wordArr;
-//   }
-// }
-
 deletee();
-
-// wordArr.splice(`${word.length - 1}`, 1);
-// word.length--;
-// console.log(wordArr);
-
-// wordArr.splice(`${word.length - 1}`, 1);
-// console.log(wordArr);
-
-// for (let i = 0; i < word.length; i++) {
-//   word = word.substring(1);
-// }
-// console.log(word);
-
-// for (let i = word.length - 1; i > 0; i--) {
-//   if (wordArr.length > 0) {
-//     wordArr.splice(-1, 1);
-//     console.log(wordArr.join(""));
-//     spanEl.textContent -= wordArr;
-//   }
-// }
-
-// tempLen = word.length;
-// word.length = word.length - 1;
-
-// wordArr.splice(word.length, 1);
-// console.log(word.length);
-
-// wordArr.splice(`${word.length - 1}`, 1);
-// word.length--;
-// console.log(wordArr);
-// wordArr.splice(`${word.length - 1}`, 1);
-// word.length--;
-// console.log(wordArr);
