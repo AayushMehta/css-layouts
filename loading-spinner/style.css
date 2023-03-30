@@ -1,0 +1,22 @@
+.spin span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 4px solid transparent;
+  border-radius: 50%;
+  border-right-color: black;
+  animation: spinner-anim 0.8s linear infinite;
+}
+
+img {
+  width: 200px;
+}
+
+@keyframes spinner-anim {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
