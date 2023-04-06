@@ -1,9 +1,6 @@
-/* Sending a file appended to a FormData object */
-
 const form = document.getElementById("form");
 
 form.addEventListener("submit", function (event) {
-  // Prevent default HTML page refresh
   event.preventDefault();
 
   const uploadElement = document.getElementById("file");
