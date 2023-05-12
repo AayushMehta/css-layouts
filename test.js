@@ -51,3 +51,30 @@ console.log(newtemp);
 // newArray.map(function (arr) {
 //   console.log(arr);
 // });
+
+//Stale Closure Example
+
+function createIncrementor(inc) {
+  let value = 0;
+
+  function logger() {
+    let message = `the increment value is ${value}`;
+    console.log(message);
+  }
+
+  function increment() {
+    value = value + inc;
+    console.log(value);
+  }
+
+  return [increment, logger];
+}
+
+const [increment, logger] = createIncrementor(1);
+
+logger();
+increment();
+increment();
+logger();
+increment();
+increment();

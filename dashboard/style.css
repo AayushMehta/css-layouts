@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans", Roboto, arial, sans-serif;
+  /* font-size: 62.5%; */
+}
+
+/* Utility Classes Start */
+
+.date {
+  color: #a4a8ab;
+  text-align: left;
+}
+
+.card-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-box {
+  outline: 1px solid lightgray;
+  border-radius: 0.1rem;
+  padding: 0.5rem 1rem;
+  /* width: 100%; */
+  /* margin: 0 auto; */
+}
+.card-box a {
+  color: #f37b21;
+  text-decoration: none;
+  letter-spacing: 1.2;
+}
+
+/* Utility Classes Ends */
+
+.flex {
+  display: flex;
+  /* gap: 1rem; */
+  height: 100vh;
+}
+
+/* Left Start  */
+
+.left-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.left {
+  padding: 1rem 0.1rem;
+  width: 17vw;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  align-items: ;
+
+  background-color: #212b36;
+  /* gap: 1rem; */
+}
+
+.left button {
+  border: none;
+  /* width: 100%; */
+  background-color: #2a333e;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.left a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  border-radius: 0.3rem;
+}
+.left a svg {
+  width: 3vw;
+}
+.left a:hover {
+  color: #f37b21;
+  background-color: #2a333e;
+}
+
+.left-headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 1rem 1rem; */
+  text-align: left;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.left-headings svg {
+  justify-content: center;
+}
+
+/* right starts */
+
+.right {
+  margin: 1rem;
+  width: 80vw;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.grid {
+  justify-content: stretch;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 2rem;
+  /* gap: 1rem; */
+  grid-template-areas:
+    "heading heading heading heading heading heading heading"
+    "grid-2 grid-2 grid-3 grid-3 grid-4 grid-4 grid-4"
+    "grid-2 grid-2 grid-3 grid-3 grid-4 grid-4 grid-4"
+    "grid-5 grid-5 grid-5 grid-5 grid-6 grid-6 grid-6"
+    "grid-5 grid-5 grid-5 grid-5 grid-6 grid-6 grid-6"
+    "grid-5 grid-5 grid-5 grid-5 grid-6 grid-6 grid-6"
+    "grid-7 grid-7 grid-7 grid-7 grid-6 grid-6 grid-6"
+    "grid-7 grid-7 grid-7 grid-7 grid-6 grid-6 grid-6"
+    "grid-7 grid-7 grid-7 grid-7 grid-6 grid-6 grid-6"
+    "grid-7 grid-7 grid-7 grid-7 grid-6 grid-6 grid-6"
+    "grid-7 grid-7 grid-7 grid-7 grid-6 grid-6 grid-6"
+    "grid-7 grid-7 grid-7 grid-7 grid-6 grid-6 grid-6";
+}
+
+.heading {
+  grid-area: heading;
+}
+.grid-2 {
+  grid-area: grid-2;
+  border-radius: 0.3rem;
+  background-color: #ebf6ed;
+  padding: 0.5rem;
+}
+.grid-2 span {
+  color: #5bbb75;
+}
+.grid-3 {
+  grid-area: grid-3;
+  border-radius: 0.3rem;
+  background-color: #ebf4f8;
+  padding: 0.5rem;
+}
+.grid-3 span {
+  color: #2f9bc7;
+}
+.grid-4 {
+  grid-area: grid-4;
+  background-color: #fef1ea;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+.grid-4 span {
+  color: #f69754;
+}
+.grid-5 {
+  grid-area: grid-5;
+  outline: 1px solid lightgray;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+.grid-5 h1 {
+  font-size: 2rem;
+}
+.grid-6 {
+  grid-area: grid-6;
+  border-radius: 0.5rem;
+  outline: 1px solid lightgray;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.card-6-box {
+  outline: 1px solid lightgray;
+  border-radius: 0.1rem;
+  padding: 0.3rem 1rem;
+  line-height: 1.5;
+  background-color: #fafafa;
+}
+.card-6-box span {
+  font-size: 0.9rem;
+}
+.card-6-box a {
+  text-decoration: none;
+  color: #f37b21;
+}
+.grid-7 {
+  outline: 1px solid lightgray;
+  border-radius: 0.3rem;
+  grid-area: grid-7;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: scroll;
+}
+.grid-7-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* overflow: scroll; */
+}
