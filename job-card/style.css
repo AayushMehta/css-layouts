@@ -76,7 +76,7 @@ hr {
   border: none;
   font-weight: bold;
   cursor: pointer;
-  outline: 2px solid red;
+  outline: 2px solid rgb(157, 19, 19);
   color: white;
-  background-color: red;
+  background-color: rgb(157, 19, 19);
 }

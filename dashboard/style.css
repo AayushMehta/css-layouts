@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Google Sans", Roboto, arial, sans-serif;
-  /* font-size: 62.5%; */
 }
 
 /* Utility Classes Start */
@@ -23,8 +22,6 @@
   outline: 1px solid lightgray;
   border-radius: 0.1rem;
   padding: 0.5rem 1rem;
-  /* width: 100%; */
-  /* margin: 0 auto; */
 }
 .card-box a {
   color: #f37b21;
@@ -36,7 +33,6 @@
 
 .flex {
   display: flex;
-  /* gap: 1rem; */
   height: 100vh;
 }
 
@@ -57,15 +53,11 @@
   flex-direction: column;
   justify-content: space-between;
   border-radius: 0.5rem;
-  align-items: ;
-
   background-color: #212b36;
-  /* gap: 1rem; */
 }
 
 .left button {
   border: none;
-  /* width: 100%; */
   background-color: #2a333e;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -79,14 +71,12 @@
 }
 
 .left a {
-  display: block;
   color: white;
   text-decoration: none;
   font-weight: 900;
   padding: 0.5rem 0.5rem;
   display: flex;
   gap: 0.5rem;
-  border-radius: 0.3rem;
 }
 .left a svg {
   width: 3vw;
@@ -125,7 +115,6 @@
   grid-template-rows: repeat(12, 1fr);
   grid-column-gap: 1rem;
   grid-row-gap: 2rem;
-  /* gap: 1rem; */
   grid-template-areas:
     "heading heading heading heading heading heading heading"
     "grid-2 grid-2 grid-3 grid-3 grid-4 grid-4 grid-4"
@@ -207,15 +196,15 @@
   outline: 1px solid lightgray;
   border-radius: 0.3rem;
   grid-area: grid-7;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  overflow: scroll;
 }
 .grid-7-flex {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  /* overflow: scroll; */
+  overflow: scroll;
+  padding: 0.1rem;
 }
